@@ -1,0 +1,120 @@
+body {
+  /* background-color: rgba(105, 218, 219, 0.1); */
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: rgb(17, 60, 252);
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: rgb(17, 60, 252);
+  margin-top: 4px;
+}
+
+p {
+  color: rgb(21, 151, 229);
+  margin: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.container {
+  width: 900px;
+  margin: 24px auto;
+  padding: 8px;
+}
+
+.card {
+  border-width: 2px;
+  margin: 32px 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.image-average {
+  width: 35%;
+  height: 35%;
+}
+
+.button-blue {
+  background-color: rgb(17, 60, 252);
+  color: rgb(240, 240, 240);
+}
+
+.button-rounded {
+  border-radius: 4px;
+  padding: 16px;
+  /* margin: 8px; */
+}
+
+.card-bordered {
+border-width: 2px;
+border-color: rgba(105, 218, 219, 0.6);
+border-style: solid;
+border-radius: 4px;
+}
+
+.card-lightblue {
+  background: rgba(105,218,219,0.3);
+}
+
+.image-bordered {
+border-style: solid;
+border-color: rgba(200, 200, 200, 0.3);
+border-width: 2px;
+}
+
+.icon-midsize {
+  font-size: 25px;
+}
+
+.text-lightblue {
+  color: rgb(21, 151, 229);
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
