@@ -19,7 +19,7 @@ h2 {
 
 p {
   color: rgb(21, 151, 229);
-  margin: 32px;
+  margin: 16px;
 }
 
 a {
@@ -46,6 +46,11 @@ a:hover {
 }
 
 .list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-nobullet {
   list-style: none;
   padding-left: 0px;
 }
@@ -97,6 +102,10 @@ border-width: 2px;
 
 .text-lightblue {
   color: rgb(21, 151, 229);
+}
+
+.text-bottommargin {
+  margin-bottom: 32px;
 }
 
 
